@@ -21,3 +21,9 @@ let variable: any = 42
 variable = 'New String'
 variable = []
 
+//===
+function sayMyName(name: string): void {
+    console.log(name)
+}
+sayMyName('Heisenberg')
+
