@@ -27,3 +27,18 @@ function sayMyName(name: string): void {
 }
 sayMyName('Heisenberg')
 
+// Never
+function throwError(message: string): never {
+    throw new Error(message)
+}
+
+function infinite(): never {
+    while (true) {
+
+    }
+}
+
+//Type
+type Login = string
+
+const login: Login = 'admin'

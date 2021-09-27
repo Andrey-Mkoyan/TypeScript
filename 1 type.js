@@ -19,3 +19,12 @@ function sayMyName(name) {
     console.log(name);
 }
 sayMyName('Heisenberg');
+// Never
+function throwError(message) {
+    throw new Error(message);
+}
+function infinite() {
+    while (true) {
+    }
+}
+var login = 'admin';
